@@ -1,0 +1,12 @@
+benchmark-io
+------------------------------------------------------
+Realiza una cantidad n^3 de llamadas a archivo.
+
+El tiempo de ejecucion aumenta considerablemente
+con respecto a las llamadas a memoria.
+
+
+Modo de uso:
+./benchmark n
+n:		cantidad de elementos/iteraciones
+		la cual se eleva a la potencia 3

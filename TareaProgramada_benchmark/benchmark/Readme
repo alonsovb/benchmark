@@ -1,0 +1,18 @@
+benchmark
+------------------------------------------------------
+Realiza una cantidad n^3 de llamadas a memoria,
+dependiendo de la bandera, se puede provocar
+intencionalmente que el cache falle buscando las
+posiciones de memoria, o se puede evitar que suceda.
+
+El tiempo de ejecucion aumenta considerablemente
+cuando existen cache misses.
+
+
+Modo de uso:
+./benchmark n flag
+n:		cantidad de elementos/iteraciones
+flag:	determina el tipo de instrucciones a ejecutar
+	-cm		Provoca intentos de Cache Miss
+	-nocm	No realiza Cache Misses
+
